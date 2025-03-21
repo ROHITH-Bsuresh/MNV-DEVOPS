@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git url: 'https://github.com/nadin-c/MVNM_project.git', branch: 'main'
+                git url: 'https://github.com/ROHITH-Bsuresh/MNV-DEVOPS.git', branch: 'main'
             }
         }
 
