@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "nadinc/mvn"
+        DOCKER_IMAGE = "rohith87/mvn"
         DOCKER_TAG = "latest"
-        DOCKER_CREDENTIALS_ID = "e752556d-0bc6-4985-ad16-6f2a663ce000"
+        DOCKER_CREDENTIALS_ID = "993c77e9-3626-47c7-88ab-83e6764aa18b"
         
         KUBECONFIG = "/var/lib/jenkins/.kube/config"
     }
